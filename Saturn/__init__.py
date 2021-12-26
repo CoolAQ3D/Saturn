@@ -1,5 +1,5 @@
 
-from replit import find_library
+from Saturn.replit import find_library
 
 find_library(
   dev_mode = False,
