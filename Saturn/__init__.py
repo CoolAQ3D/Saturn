@@ -8,5 +8,8 @@
 
 #from Saturn.features.features import features
 import os
-files = os.listdir(os.curdir)
-print(files)
+import os
+files = [f for f in os.listdir('.') if os.path.isfile(f)]
+for f in files:
+    # do something
+    print(f)
